@@ -38,6 +38,8 @@
 					<Add library="libXxf86vm" />
 					<Add library="libXxf86dga" />
 					<Add library="Xrandr" />
+					<Add library="rt" />
+					<Add library="pthread" />
 				</Linker>
 			</Target>
 			<Target title="Win32 Release">
